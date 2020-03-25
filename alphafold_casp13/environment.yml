@@ -1,0 +1,22 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - absl-py=0.9
+  - gast=0.2 
+  - hvplot=0.5
+  - jupyterlab=1.2
+  - jupyterlab-git=0.9
+  - matplotlib=3.2
+  - nbdime=1.1
+  - nodejs=13
+  - pandas=1.0
+  - pip=20.0
+  - pip:
+    - -r file:requirements.txt
+  - python=3.7
+  - tensorflow=1.14
+  - tensorflow-probability=0.7
